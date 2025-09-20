@@ -162,7 +162,7 @@ const CardNav = ({
                 className="card-nav-cta-button"
                 style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
             >
-              <Link href={"https://github.com/Abhineetsahay/Centroid-Cattle"} target={"_blank"}>
+              <Link href={"/"} target={"_blank"}>
               View Analytics
               </Link>
             </button>
