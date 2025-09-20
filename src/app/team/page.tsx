@@ -7,12 +7,12 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 const teamMembers = [
-    { name: "Rajesh Kumar", role: "Founder & CEO", img: "https://source.unsplash.com/random/300x300/?person,1", bio: "Visionary leader driving innovation in smart farming solutions." },
-    { name: "Priya Sharma", role: "CTO", img: "https://source.unsplash.com/random/300x300/?person,2", bio: "Expert in AI/ML with a passion for building scalable tech." },
-    { name: "Amit Verma", role: "Lead Developer", img: "https://source.unsplash.com/random/300x300/?person,3", bio: "Full-stack engineer specializing in cloud-native applications." },
-    { name: "Sneha Patel", role: "AI/ML Engineer", img: "https://source.unsplash.com/random/300x300/?person,4", bio: "Researcher building next-gen models for livestock health." },
-    { name: "Vikram Singh", role: "DevOps Specialist", img: "https://source.unsplash.com/random/300x300/?person,5", bio: "Automation enthusiast ensuring seamless deployments." },
-    { name: "Ananya Gupta", role: "UI/UX Designer", img: "https://source.unsplash.com/random/300x300/?person,6", bio: "Design thinker crafting engaging digital experiences." },
+    { name: "Biswadeep Dev", role: "Team Leader", img: "/bd.png", bio: "Visionary leader driving innovation in smart farming solutions." },
+    { name: "Manya Pandey", role: "Machine Learning Core", img: "/ma.jpg", bio: "Expert in AI/ML with a passion for building scalable tech." },
+    { name: "Areeb Imam", role: "App Dev Core", img: "/ai.jpg", bio: "Full-stack App Developer specializing in native applications." },
+    { name: "Anoop Kumar", role: "Web Dev Core", img: "/me.jpg", bio: "Full-stack Web Developer specializing in cloud-native applications." },
+    { name: "Om Sharma", role: "App Dev Core", img: "/os.jpg", bio: "App Dev enthusiast with multi domain support ensuring seamless deployments." },
+    { name: "Abhineet Sahay", role: "ML and Web Core", img: "/as.jpg", bio: "The Core Developer specializing in Backend and AI/ML." },
 ];
 
 export default function TeamPage() {
@@ -49,18 +49,19 @@ export default function TeamPage() {
                                     src={member.img}
                                     alt={member.name}
                                     className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
+                                    width={100} height={100}
                                 />
-                                <div className="flex flex-col justify-between p-6 space-y-6">
+                                <div className="flex flex-col justify-between p-6 bg-black/60 space-y-6">
                                     <div className="space-y-2">
                                         <h2 className="text-2xl font-semibold tracking-wide">{member.name}</h2>
-                                        <p className="text-sm font-medium text-gray-500">{member.role}</p>
+                                        <p className="text-sm font-medium text-yellow-400">{member.role}</p>
                                         <p>{member.bio}</p>
                                     </div>
                                     <button
                                         type="button"
                                         className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-default-600 dark:text-gray-50"
                                     >
-                                        Read more
+
                                     </button>
                                 </div>
                             </motion.div>
