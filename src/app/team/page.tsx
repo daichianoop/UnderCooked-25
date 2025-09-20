@@ -11,7 +11,7 @@ const teamMembers = [
     { name: "Manya Pandey", role: "Machine Learning Core", img: "/ma.jpg", bio: "Expert in AI/ML with a passion for building scalable tech." },
     { name: "Areeb Imam", role: "App Dev Core", img: "/ai.jpg", bio: "Full-stack App Developer specializing in native applications." },
     { name: "Anoop Kumar", role: "Web Dev Core", img: "/me.jpg", bio: "Full-stack Web Developer specializing in cloud-native applications." },
-    { name: "Om Sharma", role: "App Dev Core", img: "/os.jpg", bio: "App Dev enthusiast with multi domain support ensuring seamless deployments." },
+    { name: "Om Sharma", role: "App Dev Core", img: "/os.jpg", bio: "App Dev enthusiast and a Multi Domain Developer." },
     { name: "Abhineet Sahay", role: "ML and Web Core", img: "/as.jpg", bio: "The Core Developer specializing in Backend and AI/ML." },
 ];
 
@@ -72,3 +72,4 @@ export default function TeamPage() {
         </div>
     );
 }
+
