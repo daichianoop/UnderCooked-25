@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "cattlelabs",
+  title: "Home @ Cattle Labs",
   description: "Landing Page for SIH Project cattlelabs",
 };
 
